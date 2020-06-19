@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Anti Paywall",
+  "description": "Down with Paywalls",
+  "version": "1.0",
+
+  "permissions": [
+   "activeTab",
+   "https://*/",
+   "http://*/"
+  ],
+
+  "browser_action": {},
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}
