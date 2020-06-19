@@ -99,5 +99,5 @@ document.body.innerHTML = getText(document.body);
 document.body.style.width='700px';
 document.body.style.padding='40px';
 document.body.style.overflow='';
-document.body.line-height='';
+document.body.style.lineHeight='';
 
